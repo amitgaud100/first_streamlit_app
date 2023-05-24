@@ -44,9 +44,6 @@ try:
 except URLerror as e:
   streamlit.error()
  
-# dont run anything past while we troubleshoot
-streamlit.stop()
-
 streamlit.header("The fruit load list contains:")
 # snowflake related function
 def get_fruit_load_list():
